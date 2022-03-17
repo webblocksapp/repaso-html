@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Aquí se agregan los metadatos (información invisible al usuario,
+      pero útil para el navegador) -->
+
+    <!--Meta etiqueta para definir que alfabeto va a interpretar el navegador-->
+    <meta charset="UTF-8" />
+    <!--Permitir el título visible en la pestaña del navegador-->
+    <title>Pepito</title>
+  </head>
+  <body>
+    <!-- Aquí se agrega todo el código html visible al usuario -->
+    <!--Etiquetas de encabezado-->
+    <h1>Encabezado H1</h1>
+    <h2>Encabezado H2</h2>
+    <h3>Encabezado H3</h3>
+    <h4>Encabezado H4</h4>
+    <h5>Encabezado H5</h5>
+    <h6>Encabezado H6</h6>
+    <!---------------------->
+    <!--Etiquetas de texto-->
+    <!---------------------->
+    <!--Párrafos-->
+    <p>Soy un párrafo</p>
+    <!--Span-->
+    <p>
+      Soy un <span style="color: green">párrafo</span> con un
+      <span style="color: red">span rojo</span>
+    </p>
+    <span>Soy un span independiente,</span>
+    <span>Soy un span seguido independiente</span>
+    <!--Más ejemplos de etiquetas de texto, ver aquí: 
+      https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=480:formatos-de-texto-html-negrita-cursiva-tachado-subrayado-superindice-subindice-b-y-strong-cu00713b&catid=69&Itemid=192
+    -->
+    <!--Negrilla-->
+    <br />
+    <b>Negrilla</b>
+    <br />
+    <strong>Negrilla</strong>
+    <!--Cursiva - Italics-->
+    <br />
+    <i>Cursiva</i>
+    <br />
+    <em>Cursiva</em>
+    <!--Subrayado - Underlined-->
+    <br />
+    <u>Soy un texto subrayado</u>
+    <!--Tachado - Strike-->
+    <br />
+    <s>Soy un texto tachado</s>
+    <br />
+    <del>Soy un texto tachado</del>
+    <!--Super índice-->
+    <p>Según Albert Einstein<sup>1</sup></p>
+    <!--Sub índice-->
+    <p>Sea el el número x<sub>n-1</sub></p>
+    <!--Pequeño-->
+    <p>Texto <small>pequeño</small></p>
+    <!--Listas no numeradas - Unordered List-->
+    <ul>
+      <!--Item de lista - List item-->
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+    <!--Listas ordenada (númerada) - Ordered List-->
+    <ol>
+      <!--Item de lista - List item-->
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+
+    <!--Listas ordenada (letras) - Ordered List-->
+    <ol type="a">
+      <!--Item de lista - List item-->
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+
+    <!--Hipervínculos o enlaces - Anclas-->
+    <a href="https://www.google.com">Ir a google</a>
+
+    <br />
+    <br />
+
+    <!---------------------->
+    <!--Etiqueta de imagen-->
+    <!---------------------->
+    <!--Imágenes, src: source, que significa fuente-->
+    <img src="imgs/download.jpeg" />
+
+    <!---------------------->
+    <!--Etiquetas de diseño o caja-->
+    <!---------------------->
+    <!--Div - division-->
+    <div>Division</div>
+    <!--Section - Sirve para agrupar varios divs-->
+    <section>
+      <div>Division 1</div>
+      <div>Division 2</div>
+      <div>Division 3</div>
+    </section>
+    <!--Encabezado-->
+    <header>
+      <p>Soy un p en el encabezado</p>
+      <h1>Soy un h1 en el encabezado</h1>
+    </header>
+    <!--Footer (Pie de página)-->
+    <footer>
+      <p>Soy un p en el footer</p>
+      <h1>Soy un h1 en el footer</h1>
+      <div>
+        <p>P1</p>
+        <p>P2</p>
+      </div>
+    </footer>
+    <!--Barra de navegación-->
+    <nav>
+      <a href="https://www.google.com">Inicio</a>
+      <a href="https://www.google.com">Contacto</a>
+      <a href="https://www.google.com">Home</a>
+      <p>P1</p>
+      <p>P2</p>
+      <p>P3</p>
+    </nav>
+    <!--Bloques de publicidad-->
+    <aside>
+      <p>Soy un bloque de publicidad</p>
+    </aside>
+
+    <!--------------------------->
+    <!--Etiquetas de formulario-->
+    <!--------------------------->
+    <!--form: Etiqueta que encapsula las etiquetas de formulario-->
+    <form>
+      <!--label: Etiqueta un campo-->
+      <label>Número de teléfono</label>
+      <!--Campo de texto-->
+      <input type="text" />
+      <br />
+      <label>Fecha de nacimiento</label>
+      <!--Campo de fecha-->
+      <input type="date" />
+      <br />
+      <label>Edad</label>
+      <!--Campo numérico-->
+      <input type="number" />
+      <br />
+      <label>Ciudad</label>
+      <!--Menú desplegable con opciones-->
+      <select>
+        <option value="">Seleccione una opción</option>
+        <option>Medellín</option>
+        <option>Guaduas</option>
+        <option>Bogotá</option>
+      </select>
+      <br />
+      <!--Cajas marcables (Checkboxes) - Se usan para selección múltiple-->
+      <div>
+        <h6>Comidas favoritas</h6>
+        <label>Pizza</label>
+        <input type="checkbox" />
+        <label>Hamburguesa</label>
+        <input type="checkbox" />
+        <label>Arepa de huevo</label>
+        <input type="checkbox" />
+      </div>
+
+      <!--Botones en radio (Radio buttons) - Elegir una sola opción-->
+      <div>
+        <h6>Estado civil</h6>
+        <label>Casado</label>
+        <input type="radio" name="estadoCivil" />
+        <label>Soltero</label>
+        <input type="radio" name="estadoCivil" />
+        <label>Unión libre</label>
+        <input type="radio" name="estadoCivil" />
+      </div>
+
+      <button type="button">Enviar</button>
+    </form>
+  </body>
+</html>

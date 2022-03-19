@@ -1,0 +1,57 @@
+/*
+  Estilos para una clase en html
+  Las clases en css vienen precedidas de un punto .
+*/
+.red-p {
+  color: red;
+}
+
+/*
+  Estilos para un id en html
+  Los ids en css vienen precedidos de un numeral #
+*/
+#paragraph-2 {
+  color: green;
+}
+
+.blue-button {
+  border-radius: 3px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(17, 73, 110);
+  background-color: #3492eb;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 6px;
+}
+
+.add-block {
+  border-width: 1px;
+  border-color: black;
+  border-style: dotted;
+  margin-top: 17px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.green-background {
+  background-color: green;
+}
+
+.blue-background {
+  background-color: blue;
+}
+
+.red-color {
+  color: red;
+}
+
+.green-color {
+  color: green;
+}
+
+.purple-color {
+  color: purple;
+}
